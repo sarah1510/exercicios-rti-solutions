@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#ccc, white);
+    background-color: #9abae7;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 10px gray,0px 5px 20px gray;
+    padding: 30px;
+    background-color: white;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.genero {
+    display: flex;
+    height: 50px;
+
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+
+.genero input{
+    width: 15px;
+}
+
+
+.cargo{
+    display: flex;
+    flex-direction: column;
+}
+
+.cargo select{
+    margin-top: 1px;
+    height: 30px;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 15px;
+    height: 30px;
+} 
+
+button{
+    width: 100%;
+    background-color: transparent;
+    margin-top: 10%;
+    border: 2px solid black;
+    height: 30px;
+    font-weight: bold;
+    transition: .2s;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0px 0px 20px black;
+}
+

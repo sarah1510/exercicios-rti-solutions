@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situação de aprendizagem</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <form method="POST" action="./salario.php">
+            <h1>FINTECH FULLBANK</h1>
+
+            <label for="nome-funcionario" >Nome do funcionário:</label>
+            <input id="nome-funcionario" name="nome-funcionario" />
+
+            <label for="salario-atual">Salário atual:</label>
+            <input type="number" id="salario-atual" name="salario-atual" />
+
+            <!-- <input type="radio" name="radio" value="M"> -->
+
+            <div class="genero">
+                Gênero:
+                <input type="radio" id="opcao1" name="genero" value="M"> 
+                <label for="opcao1">Masculino</label>
+              
+               
+                <input type="radio" id="opcao2" name="genero" value="F">
+                <label for="opcao2">Feminino</label>
+
+                <input type="radio" id="opcao3" name="genero" value="Outros">
+                <label for="opcao3">Outros</label>                
+            </div>
+           
+
+            <div class="cargo">
+                Cargo:
+                <select> 
+                    <option value="">Selecione seu cargo</option>
+                    <option>Desenvolvedor</option>
+                    <option>Engenheiro</option>
+                    <option>Advogado</option>
+                    <option>Motorista</option>
+                    <option>Logista</option>
+                    <option>Estagiário</option>
+                </select>
+            </div>
+
+
+    
+            
+       
+            <button>Calcular novo salário</button>
+    </form>
+</body>
+</html>
